@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+    <div id="classdiv">
+      <header class="mb-3">
+        <h3 class="headTitle">My Todo</h3>
+        <div class="form-inline">
+          <div class="input-line">
+            <input
+              type="text"
+              placeholder="add item"
+              id="newTodo"
+              title="tap area"
+            />
+            <span id="inputStyle" class="bottom"></span>
+            <span id="inputStyle" class="right"></span>
+            <span id="inputStyle" class="top"></span>
+            <span id="inputStyle" class="left"></span>
+          </div>
+          <button id="addBtn" class="btn btn-info" title="submit">Add</button>
+        </div>
+      </header>
+
+      <div class="todoDiv todo-div">
+        <ul id="my-todo" class="list-unstyled">
+          <!-- display todos here -->
+        </ul>
+      </div>
+      <div class="doneDiv">
+        <ul id="my-done" class="list-unstyled">
+          <!-- display todos here -->
+        </ul>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/9adde4ff12.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
